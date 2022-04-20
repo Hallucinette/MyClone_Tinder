@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9C4CBCEF280F5FF40028BC0D /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 9C4CBCEE280F5FF40028BC0D /* KingfisherSwiftUI */; };
+		9C4CBCF228107BD90028BC0D /* ProfileSwipePromo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4CBCF128107BD90028BC0D /* ProfileSwipePromo.swift */; };
 		9C83B226280ECBF500055665 /* My_TinderAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C83B225280ECBF500055665 /* My_TinderAppApp.swift */; };
 		9C83B228280ECBF500055665 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C83B227280ECBF500055665 /* ContentView.swift */; };
 		9C83B22A280ECBFA00055665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C83B229280ECBFA00055665 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C4CBCF128107BD90028BC0D /* ProfileSwipePromo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSwipePromo.swift; sourceTree = "<group>"; };
 		9C83B222280ECBF500055665 /* My_TinderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = My_TinderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C83B225280ECBF500055665 /* My_TinderAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_TinderAppApp.swift; sourceTree = "<group>"; };
 		9C83B227280ECBF500055665 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +48,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C4CBCF02810654E0028BC0D /* HelperView */ = {
+			isa = PBXGroup;
+			children = (
+				9C83B241280F5BC100055665 /* RoundedImage.swift */,
+			);
+			path = HelperView;
+			sourceTree = "<group>";
+		};
 		9C83B219280ECBF500055665 = {
 			isa = PBXGroup;
 			children = (
@@ -70,8 +80,7 @@
 				9C83B237280F07C700055665 /* AppStateManager.swift */,
 				9C83B23D280F542100055665 /* MainTabBar */,
 				9C83B240280F54F800055665 /* Profile */,
-				9C83B23B280F4C5200055665 /* Extensions.swift */,
-				9C83B241280F5BC100055665 /* RoundedImage.swift */,
+				9C4CBCF02810654E0028BC0D /* HelperView */,
 				9C83B229280ECBFA00055665 /* Assets.xcassets */,
 				9C83B22B280ECBFA00055665 /* Preview Content */,
 			);
@@ -81,6 +90,7 @@
 		9C83B22B280ECBFA00055665 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				9C83B23B280F4C5200055665 /* Extensions.swift */,
 				9C83B22C280ECBFA00055665 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -99,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				9C83B23E280F54DA00055665 /* ProfileView.swift */,
+				9C4CBCF128107BD90028BC0D /* ProfileSwipePromo.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -183,6 +194,7 @@
 				9C83B242280F5BC100055665 /* RoundedImage.swift in Sources */,
 				9C83B23C280F4C5200055665 /* Extensions.swift in Sources */,
 				9C83B228280ECBF500055665 /* ContentView.swift in Sources */,
+				9C4CBCF228107BD90028BC0D /* ProfileSwipePromo.swift in Sources */,
 				9C83B234280ED3EE00055665 /* MainView.swift in Sources */,
 				9C83B226280ECBF500055665 /* My_TinderAppApp.swift in Sources */,
 				9C83B23F280F54DA00055665 /* ProfileView.swift in Sources */,

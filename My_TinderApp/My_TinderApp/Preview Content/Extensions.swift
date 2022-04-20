@@ -23,3 +23,11 @@ extension View {
         }
     }
 }
+
+// ici nous pouvons changer tout les couleurs des textes
+extension Color {
+    static let textPrimary = Color.gray.opacity(0.9)
+    static let textSecondery = Color.gray.opacity(0.6)
+    static let textTitle = Color.black.opacity(0.8)
+    static let defaultBackground = Color(.systemGray6).opacity(0.35)
+}

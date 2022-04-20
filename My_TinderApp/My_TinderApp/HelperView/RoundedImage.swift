@@ -13,6 +13,9 @@ struct RoundedImage: View {
     
     var body: some View {
         KFImage(url)
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+            .clipShape(Circle())
     }
 }
 
